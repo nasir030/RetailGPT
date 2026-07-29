@@ -1,0 +1,35 @@
+# --- Core data ---
+pandas>=2.0.0
+numpy>=1.24.0
+
+# --- Dashboard ---
+streamlit>=1.35.0
+plotly>=5.20.0
+
+# --- Backend API ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.6.0
+
+# --- LLM / Ollama integration ---
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# --- LangChain / LangGraph agent orchestration (for extending agents/) ---
+langchain>=0.2.0
+langgraph>=0.1.0
+
+# --- RAG (for the Documentation Agent, when you build it out) ---
+faiss-cpu>=1.8.0
+sentence-transformers>=2.7.0
+
+# --- Reports ---
+reportlab>=4.1.0
+
+# --- Notebooks ---
+jupyter>=1.0.0
+nbformat>=5.10.0
+
+# --- Optional visuals ---
+matplotlib>=3.8.0
+seaborn>=0.13.0

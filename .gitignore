@@ -1,0 +1,28 @@
+# Environment
+.env
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Data (keep raw sample, but ignore large/generated processed data if you regenerate it)
+data/processed/*.csv
+
+# Reports (generated at runtime)
+reports/*.pdf
+
+# RAG artifacts (generated at runtime)
+rag/embeddings/*
+rag/vectorstore/*
+!rag/embeddings/.gitkeep
+!rag/vectorstore/.gitkeep
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
